@@ -1,2 +1,2 @@
 # Spring5B2G
-Spring Framework Begginer to Guru by John Thompson
+Spring Framework Beginner to Guru by John Thompson
