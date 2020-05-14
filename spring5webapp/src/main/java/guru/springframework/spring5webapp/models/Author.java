@@ -1,6 +1,7 @@
 package guru.springframework.spring5webapp.models;
 
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
@@ -12,19 +13,18 @@ public class Author {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    private String fisrtName;
+    private String firstName;
     private String lastName;
 
     @ManyToMany(mappedBy = "authors")
-    private Set<Book> books;
+    private Set<Book> books = new HashSet<>();
 
     public Author() {
     }
 
-    public Author(String fisrtName, String lastName, Set<Book> books) {
-        this.fisrtName = fisrtName;
+    public Author(String firstName, String lastName) {
+        this.firstName = firstName;
         this.lastName = lastName;
-        this.books = books;
     }
 
     public Long getId() {
@@ -35,12 +35,12 @@ public class Author {
         this.id = id;
     }
 
-    public String getFisrtName() {
-        return fisrtName;
+    public String getfirstName() {
+        return firstName;
     }
 
-    public void setFisrtName(String fisrtName) {
-        this.fisrtName = fisrtName;
+    public void setfirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getLastName() {
@@ -65,21 +65,21 @@ public class Author {
         if (o == null || getClass() != o.getClass()) return false;
         Author author = (Author) o;
         return Objects.equals(id, author.id) &&
-                Objects.equals(fisrtName, author.fisrtName) &&
+                Objects.equals(firstName, author.firstName) &&
                 Objects.equals(lastName, author.lastName) &&
                 Objects.equals(books, author.books);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, fisrtName, lastName, books);
+        return Objects.hash(id, firstName, lastName, books);
     }
 
     @Override
     public String toString() {
         return "Author{" +
                 "id=" + id +
-                ", fisrtName='" + fisrtName + '\'' +
+                ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", books=" + books +
                 '}';
