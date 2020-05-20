@@ -35,11 +35,11 @@ public class Author {
         this.id = id;
     }
 
-    public String getfirstName() {
+    public String getFirstName() {
         return firstName;
     }
 
-    public void setfirstName(String firstName) {
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
@@ -81,7 +81,6 @@ public class Author {
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", books=" + books +
                 '}';
     }
 }
