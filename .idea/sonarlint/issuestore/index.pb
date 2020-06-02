@@ -7,3 +7,19 @@ Ospring5webapp/src/main/java/guru/springframework/spring5webapp/models/Book.java
 Tspring5webapp/src/main/java/guru/springframework/spring5webapp/models/Publisher.java,f\1\f18a9c5d84029b0ed2e5a2286ebf0461b70465b3
 î
 dspring5webapp/src/main/java/guru/springframework/spring5webapp/repositories/PublisherRepository.java,1\9\1929fbff7a1384677743bec4bc0cc8317e57115c
+Å
+Qspring5webapp/src/main/java/guru/springframework/spring5webapp/models/Author.java,5\1\51dca23a4c47d06b83217ddba19ca073910e8595
+ê
+`spring5webapp/src/main/java/guru/springframework/spring5webapp/controllers/AuthorController.java,2\0\2026f93bcc85618794bceee982975c922729fa6b
+é
+^spring5webapp/src/main/java/guru/springframework/spring5webapp/controllers/BookController.java,b\d\bd82c798fff910442ef03db4e1de35e1978c9ce6
+l
+<spring5webapp/src/main/resources/templates/authors/list.html,9\0\90580845d8a9da3dbd57452fc8c0bcac1f0f9612
+j
+:spring5webapp/src/main/resources/templates/books/list.html,5\7\57df55759e1bc78614c6d2bc8ba1b9c81e01913b
+E
+spring5webapp/pom.xml,3\9\392127f5463b2651efed4ba49b441e01ef1dad1b
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+?
+notes/README.md,8\9\890d69a3267362d9fc3925e76b7f5b622f5b5394
