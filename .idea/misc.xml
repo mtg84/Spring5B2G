@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/sfg-di/pom.xml" />
+        <option value="$PROJECT_DIR$/jokeapp/pom.xml" />
+        <option value="$PROJECT_DIR$/spring5webapp/pom.xml" />
       </list>
     </option>
   </component>

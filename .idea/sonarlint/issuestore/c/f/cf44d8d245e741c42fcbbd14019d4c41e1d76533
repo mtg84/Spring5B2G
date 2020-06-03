@@ -1,0 +1,15 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¿ŒÚ‚ÿÿÿÿÿ8æ‡Í¬§.
+Z	java:S106@"9Replace this use of System.out or System.err by a logger.(†€Â¡ýÿÿÿÿ8æ‡Í¬§.
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(ÌÙ‡Ç8æ‡Í¬§.
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(ôê¡èùÿÿÿÿ8æ‡Í¬§.
+U	java:S106."9Replace this use of System.out or System.err by a logger.(–Ð€ã8æ‡Í¬§.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(’Î¡§8æ‡Í¬§.
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(‘ï­ˆûÿÿÿÿ8æ‡Í¬§.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(Ææß¯üÿÿÿÿ8æ‡Í¬§.
+
+java:S1130""sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(ú±œ8þ¹Í¬§.
+
+java:S1130-"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(¯¶…œ8þ¹Í¬§.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(À‘õb8æ‡Í¬§.
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(§„­©8æ‡Í¬§.
